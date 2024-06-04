@@ -1,0 +1,195 @@
+@media (min-width: 1400px){}
+@media (min-width: 1200px) and (max-width: 1399.98px) { }
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+@media (min-width: 768px) and (max-width: 991.98px) { }
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (max-width: 575.98px) { 
+
+    .common-button a {
+        padding: 10px 39px;
+        
+    }
+    
+    .common-button {
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-btn a {
+        width: fit-content;
+    }
+
+
+    .common-hedding h2 {
+        font-size: 32px;
+       
+    }
+
+    /*-----common---end--*/
+    /*----main----menu----part--strat--*/
+
+.main-menu .main-logo{
+        width: 150px;
+    }
+.main-menu button{
+    color: white !important;
+}
+
+.main-menu .navbar-collapse{
+    background: pink;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+
+.main-menu ul li a {
+	color: #000 !important;
+    text-align: center;
+}
+
+.main-menu ul li ul {
+	display: none;
+}
+/*---main-menu---part---end--*/
+/*---banner---part--start--*/
+#banner{
+    padding: 120px 0 60px;
+
+}
+
+.banner-content h1 {
+	width: 100%;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+/*---banner-----part---end--*/
+/*---adventure-----part---strat--*/
+#adventure {
+	padding: 60px 0;
+	
+}
+
+.common-hedding h3 {
+	font-size: 24px;
+}
+
+.adventure-detail ul li span {
+	
+	width: 42px;
+}
+
+.adventure-galary {
+	gap: 22px;
+	padding-top: 30px;
+}
+
+
+.counter {
+	margin-top: 30px;
+}
+
+
+.counter-item {
+	text-align: center;
+	margin-top: 50px;
+	height: 130px;
+}
+
+.counter-item h2 {
+	font-size: 45px;
+}
+/*---adventure-----part---end--*/
+/*---activities-----part---start--*/
+#activities {
+	padding: 60px 0;
+	
+}
+
+.activities-item {
+	margin-bottom: 20px;
+}
+
+
+.activities-bottom h2 {
+	font-size: 53px;
+	margin-top: 62px;
+}
+
+.activities-shape {
+	bottom: -39px;
+	left: 0;
+}
+
+/*---activities-----part---end--*/
+/*---extreme-----part---start--*/
+.extreme-head h2 {
+	font-size: 24px;
+	padding: 28px 0 20px;
+}
+
+
+.extreme-head p {
+	font-size: 20px;
+}
+
+.extreme-btn {
+	margin: 24px 0 50px;
+}
+
+.extreme-body {
+	flex-direction: column;
+}
+
+.extreme-item {
+	width: 100%;
+	
+}
+/*---extreme-----part---end--*/
+/*---choose-----part---start--*/
+#choose {
+	padding: 130px 0 100px;
+}
+
+.choose-logo {
+	padding-top: 20px;
+}
+/*---choose-----part---end--*/
+
+/*---sports-----part---start--*/
+.sports-item h2 {
+	width: 250px;
+	font-size: 20px;
+	
+}
+
+.sports-item a {
+	padding-bottom: 20px;
+}
+/*---sports-----part---end--*/
+/*---sponsor-----part---start--*/
+
+.sponsor-logo {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+/*---sponsor-----part---end--*/
+
+/*---footer-----part---start--*/
+    #footer {
+        background-image: none !important;
+        background: #0C3543;
+        
+    }
+
+    .footer-ptag p {
+        font-size: 15px;
+    }
+
+/*---footer-----part---end-----*/
+ }
+

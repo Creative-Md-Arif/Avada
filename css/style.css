@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+.common-button{
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+}
+.common-button a{
+    padding: 20px 50px;
+    background-color: #ff9600;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.common-hedding h3{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Yellowtail', cursive;
+
+}
+
+
+.common-hedding h2{
+    font-size: 54px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    position: relative;
+  
+
+}
+
+.common-hedding h2::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 83px;
+    height: 2px;
+   
+}
+.common-hedding p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+
+
+}
+/*===================
+   common css end 
+   ================*/
+   /*===================
+   menu part start
+   ================*/
+
+   .main-menu{
+    width: 100%;
+    padding: 20px 0 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+   .main-menu ul{
+    gap: 45px;
+   }
+ .main-menu ul li a{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff !important;
+    transition: .3s;
+ }
+
+ .main-menu ul li a:hover{
+    color: #ff9600 !important;
+    letter-spacing: 1px;
+ }
+/*-===============
+    about us ul li ul 
+    ====================*/
+.main-menu ul li{
+    position: relative;
+}
+
+.main-menu ul li ul{
+    width: 200px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+    
+}
+
+.main-menu ul li ul li a{
+   padding: 10px 0 10px 10px;
+   color: #000 !important;
+   width: 100%;
+   border-radius: 10px;
+    
+}
+
+.main-menu ul li ul li a:hover{
+    background-color: #ff9600;
+    color: #000 !important;
+}
+ .main-menu ul li:hover > ul{
+    visibility: visible;
+    opacity: 1;
+ }
+ /*-=================
+ about us ul li ul 
+ ====================*/
+/*-====================
+ Advance payment ul li ul 
+=======================*/
+
+.main-menu ul li ul li  ul{
+    left: 100%;
+    top: 0;
+}
+/*=====================
+   menu part end
+   ====================*/
+/*===================
+   banner part start
+   ================*/
+   #banner{
+    padding: 240px 212px ;
+    position: relative;
+   }
+
+   .banner-content h1{
+    width: 820px;
+    font-size: 72px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+
+   }
+
+   .banner-btn a{
+    background-color: #fff;
+    color: #000;
+    transition: .3s;
+   }
+
+   .banner-btn a:hover{
+    background-color: #ff9600;
+   }
+
+
+   .banner-shape{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+   }
+/*===================
+   banner part end
+   ================*/
+
+   /*-----adventure--part---start--*/
+
+   #adventure{
+    padding: 100px 0;
+    background-color: #E5E5E5;
+   }
+
+   .adventure-detail h3{
+    color: #49C4F5;
+
+   }
+
+   .adventure-detail h2{
+    color: #222222;
+    padding: 4px 0 30px;
+    margin-bottom: 40px;
+    
+
+   }
+
+   .adventure-detail h2::after{
+    background-color: #000;
+   }
+
+   .adventure-detail p{
+    color: #000;
+   }
+   .adventure-detail ul{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   }
+
+   .adventure-detail ul li{
+    display: flex;
+    gap: 12px;
+   }
+
+   .adventure-detail ul li span{
+    color: green;
+    border: 1px solid green;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+   }
+
+
+   .adventure-btn{
+    justify-content: flex-start;
+   }
+
+
+   .adventure-galary{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+   }
+   .counter{
+    margin-top: 100px;
+
+   }
+   .counter-item{
+    text-align: center;
+   }
+   .counter-item h2{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+   }
+
+   .counter-item p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000;
+    padding-bottom: 20px;
+   }
+
+
+   .counter .item-1{
+    background-color: #FFF4E5;
+   }
+
+   .counter .item-2{
+    background-color: #E7FDE9;
+   }
+
+   .counter .item-3{
+  background-color: #F2F2FD;
+   }
+
+   .counter .item-4{
+    background-color: #FFF4E5;
+   }
+ /*---adventure---part--end--*/
+  /*---activities--part--start--*/
+   #activities{
+    padding: 110px 0;
+    position: relative;
+    background-color: #0C3543;
+   }
+   
+   .activities-hedding{
+    margin-bottom: 72px;
+   }
+
+   .activities-hedding h3{
+    color: #FF960B;
+   }
+
+   .activities-hedding h2{
+    color: #fff;
+    padding: 8px 0 22px;
+   }
+
+   .activities-hedding h2::after{
+    background-color: #C4C4C4;
+   }
+
+   .activities-hedding p{
+    color: #fff;
+    margin-top: 37px;
+   }
+
+
+   .activities-item{
+    background-color: #0F4152;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.activities-item h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    margin-top: 37px;
+    transition: .3s;
+}
+
+.activities-item:hover h3{
+    color: #FF9600;
+}
+
+.activities-item p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 10px 0 45px;
+
+}
+
+.activities-margin{
+    margin-top: 50px;
+}
+
+.activities-bottom h2{
+    font-size: 160px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Arizonia', cursive;
+    text-align: center;
+    margin-top: 117px;
+
+}
+
+
+.activities-bottom-shape{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.activities-shape{
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+   
+}
+
+/*----activities---part---end--*/
+/*-----extreme----part---start--*/
+
+#extreme{
+    background-color: #FF9600;
+    padding-top: 30px;
+}
+
+.extreme-logo{
+    text-align: center;
+}
+
+.extreme-head h2{
+    font-size: 54px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 28px 0 50px;
+
+
+}
+
+.extreme-head p{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+}
+
+.extreme-btn{
+ margin: 54px 0 96px;
+}
+.extreme-btn a{
+    background-color: #0C3543;
+
+}
+
+.extreme-body{
+    display: flex;
+    gap: 74px;
+    position: relative;
+    bottom: -50px;
+}
+
+.extreme-item{
+    width: 33%;
+    position: relative;
+}
+
+
+.extreme-image{
+    border-radius: 15px;
+    overflow: hidden;
+}
+.extreme-detail{
+    position: absolute;
+    left: 25px;
+    bottom: 10px;
+}
+
+.extreme-detail h3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+
+
+}
+
+.extreme-detail h4{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+    padding: 27px 0 38px;
+    border-bottom: 2px solid white;
+    
+
+}
+
+.extreme-detail p{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+    margin-top: 28px;
+
+}
+
+/*----extreme--part--end--*/
+/*---choose--part---start*/
+
+#choose{
+    padding: 190px 0 230px;
+}
+.choose-head{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.choose-head h3{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Yellowtail', cursive;
+    color: #14B9F1;
+
+}
+
+.choose-head h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:#A0A0A0;
+    padding: 30px 0;
+    position: relative;
+
+}
+
+.choose-head h2::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+}
+.choose-logo{
+    text-align: center;
+} 
+
+
+.choose-item h2{
+    font-size: 24px;
+    font-weight: 700px;
+    color: #000;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    margin: 60px 0 30px;
+
+}
+
+.choose-item p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000;
+    text-align: center;
+
+}
+
+
+/*---choose--part--end--*/
+/*---sports--part---start--*/
+#sports{
+    padding-bottom: 200px;
+}
+
+.sports-hedding{
+    margin-bottom: 96px;
+}
+
+.sports-hedding h3{
+    color: #FF9600;
+}
+
+.sports-hedding h2{
+    color: #000;
+   
+}
+
+.sports-hedding h2::after{
+    background-color: #A0A0A0;
+    margin-top: 25px;
+   
+}
+
+
+.sports-right p{
+  color: #000;;
+  margin-top: 55px;
+  
+  
+}
+
+.sports-img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    overflow: hidden;
+}
+
+
+.sports-item{
+    text-align: center;
+}
+
+
+.sports-item h2{
+width: 315px;
+font-size: 28px;
+font-weight: 700;
+font-family: 'IBM Plex Sans', sans-serif;
+color: #000;
+margin:0 auto;
+margin-top: 20px;
+}
+
+.sports-item p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000;
+    margin: 0 auto;
+    padding: 32px 0 42px;
+}
+.sports-item .sports-btn{
+padding-top: 44px;
+border-top: 2px solid #000;
+text-align: center;
+}
+
+.sports-item a{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FF9600;
+    transition: .3s;
+}
+.sports-item a:hover{
+    color: #14B9F1;
+}
+
+
+
+/*-----sports-part---end--*/
+
+/*---sponsor--part--start---*/
+
+#sponsor{
+    padding-bottom: 42px;
+}
+
+
+.sponsor-logo{
+    text-align: center;
+}
+/*sponsor---part--end---*/
+
+#footer{
+    padding: 80px 0 0;
+    background: url(../image/footer-image.png) #0C3543;
+    background-repeat: no-repeat;
+    background-size: 55%;
+
+}
+#footer .footer-col{
+    padding-bottom: 52px;
+    display: flex;
+    gap:33px;
+    margin-top: 80px;
+    border-bottom: 2px solid #C4C4C4;
+}
+
+.footer-btn a{
+    padding: 10px 28px;
+    background-color: red;
+    text-align: center;
+    
+}
+
+.footer-ptag{
+    width: 373px;
+    margin-left: auto;
+
+}
+
+.footer-ptag p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+  
+}
+
+.contact{
+    display: flex;
+    padding-top:63px ;
+}
+
+  
+
+.contact-name h3{
+    width: 133px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:#fff;
+}
+
+.contact-detail{
+    margin-left: 32px;
+    
+    
+}
+
+
+.contact-detail ul{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+    
+
+    
+}
+
+.contact-detail ul li{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.copyright{
+    
+}
+
+
+.copyright p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    padding: 62px 0;
+
+}
+
